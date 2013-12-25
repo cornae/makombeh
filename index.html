@@ -1,34 +1,84 @@
----
-layout: frontpage
-title: Stichting Makombeh
----
-	<h3>Most recent posts</h3>
-	<div class="posts" id="posts">
-	  {% for post in paginator.posts %}
-	  <article class="post {{ post.layout }}">
-	  	<a href="{{ site.baseurl }}{{ post.url }}">
-			{% if post.layout != 'case' %}
-	  		<img src="{{ site.media }}/{{ post.avatar }}" class="avatar" alt="" />
-	  		{% endif %}
-		    <h4>{% if post.layout == 'case' %}Showcase: {% endif %}{{ post.title }}</h4>
-		    {% if post.layout == 'case' %}
-				{% for pic in post.pictures limit:1 %}
-					<img src="{{site.media}}/portfolio/{{ pic.url }}" title="{{ pic.caption }}" alt="" />
-				{% endfor %}
-	         	{% for vid in post.videos limit:1 %}
-	            <video controls>
-	              <source src="{{site.media}}/portfolio/{{ vid.url }}" type="video/mp4" />
-	              {{ video.caption }}
-	            </video>
-	            {% endfor %}
-		    {% endif %}
-		    <p class="summary">{{ post.summary }}</p>
-	    </a>
-	  </article>
-	  {% endfor %}
-	  {% if paginator.next_page %}
-	  <a href="{{ site.baseurl }}/page{{paginator.next_page}}#posts" class="next pat-inject" data-pat-inject="target: self::element; trigger: autoload-visible">Next</a>
-	  {% endif %}
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta charset="utf-8">
 
-	</div>
+		<title>
+			Stichting Makombeh
+		</title>
 
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized: h5bp.com/viewport -->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+		<link rel="stylesheet" href="style/base.css" type="text/css" media="all">
+		<script src="libraries/patterns-1.4.1-85-g73349b1-35a7f1bd.min.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="libraries/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header id="site-header">
+			<img id="logo" src="media/logo-white.svg" alt="Makombeh logo" />
+			<img id="header-image" src="media/group.png" alt="Group of people" />
+		</header>
+		<article id="main">
+			<hgroup>
+				<h1>Stichting Makombeh</h1>
+				<h2>Onderwijsprojecten in Sierra Leone</h2>
+			</hgroup>
+			<pre class="pat-markdown">
+Stichting Makombeh helpt 150 jongens en meisjes (4-12 jaar) in Sierra 
+Leone aan een betere toekomst door het volgende te bieden:
+
+1. een school (3 klaslokalen)
+2. vier leerkrachten (2 betaald en 2 vrijwilligers)
+3. lesmaterialen + speelgoed + speelveld
+4. uniforms
+5. sanitair + aanvullende gezondheidsonderwijs aan ouders
+			</pre>
+			<img src="media/group-with-ball.jpeg" alt="Group of children with a ball" class="outdent" />
+			<pre class="pat-markdown">
+De school wordt gerund door de gemeenschap zelf, waarbij de moeders 
+in de middag eten koken voor de kinderen. Het project gaat in 2013/2014 
+zijn zesde schooljaar in en de eerst 6 kinderen hebben hun examen naar 
+de middelbare school met succes voltooid.
+
+De school kan draaiende gehouden worden met een budget van 6,000 EURO 
+per jaar. Er zijn onvoldoende klassen voor het aantal kinderen op de 
+school, daarom willen we in 2014 drie nieuwe klaslokalen erbij bouwen. 
+Hiervoor hebben we een extra 2,000 EURO nodig. Om te helpen dit 
+mogelijk te maken stort aub een bijdrage op rekeningnummer: 
+
+> **NL60 RABO 0106124153** t.n.v. Stichting Makombeh. 
+
+Laat ons aub via email weten dat u geld gestort heeft.
+			</pre>
+		</article>
+		<footer id="appendix" class="release">
+			<img id="footer-image" src="media/children.png" alt="Children" />
+			<img id="children-foreground" src="media/children-foreground.png" alt="Children" />
+			<img class="balloon" id="balloon-1" src="media/balloon-1.png" alt="Ballon" />
+			<img class="balloon" id="balloon-2" src="media/balloon-2.png" alt="Ballon" />
+			<img class="balloon" id="balloon-3" src="media/balloon-3.png" alt="Ballon" />
+			<img class="balloon" id="balloon-4" src="media/balloon-4.png" alt="Ballon" />
+			<img class="balloon" id="balloon-5" src="media/balloon-5.png" alt="Ballon" />
+			<img class="balloon" id="balloon-6" src="media/balloon-6.png" alt="Ballon" />
+			<img class="balloon" id="balloon-7" src="media/balloon-7.png" alt="Ballon" />
+			<p class="pat-bumper" data-pat-bumper="selector: #appendix; unbump-add: release; bump-remove: release">
+				<a href="http://www.facebook.com/makombeh">Facebook</a> | Website door <a href="http://www.cornae.com">Cornelis Kolbach</a>
+			</p>
+		</footer>
+	</body>
+</html>
