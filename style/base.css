@@ -52,11 +52,13 @@ article {
 	box-sizing: border-box;
 	display: block;
 	padding-right: 10%;
+	overflow: hidden;
 }
 
 #appendix {
 	position: relative;
-	overflow: hidden;
+	margin-left: -40%;
+	margin-right: -16%;
 }
 
 #footer-image,
@@ -80,38 +82,59 @@ article {
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	transition: all 9s ease-out;
+}
+
+#appendix:not(.bumped-bottom) #balloon-1,
+#appendix:not(.bumped-bottom) #balloon-2,
+#appendix:not(.bumped-bottom) #balloon-3,
+#appendix:not(.bumped-bottom) #balloon-4
+ {
+	bottom: 100%;
+	opacity: 0;
 }
 
 #appendix #balloon-1 {
 	z-index: 2;
-	animation: swing 50s infinite;
-	bottom: -5%;
+	animation: swing 30s infinite;
+	-webkit-animation: swing 30s infinite;
+
 }
 
 #appendix #balloon-2 {
 	z-index: 2;
 	animation: swing 30s infinite;
+	-webkit-animation: swing 30s infinite;
+	transition-delay: 0.3s;
+
 }
 
 #appendix #balloon-3 {
 	z-index: 1;
 	animation: swing 40s infinite;
+	-webkit-animation: swing 40s infinite;
+	transition-delay: 0.6s;
+
 }
 
 #appendix #balloon-4 {
 	z-index: 1;
 	animation: swing 80s infinite;
+	-webkit-animation: swing 80s infinite;
+	transition-delay: 0.9s;
 }
 
 #appendix #balloon-5 {
 	z-index: 4;
 	bottom: -10%;
 	animation: swing 50s infinite;
+	-webkit-animation: swing 50s infinite;
 }
 
 #appendix #balloon-6 {
 	z-index: 4;
 	animation: pulse 15s infinite;
+	-webkit-animation: pulse 15s infinite;
 	transform-origin: bottom center;
 }
 
@@ -119,6 +142,7 @@ article {
 	z-index: 4;
 	bottom: 38%;
 	animation: pulse 20s infinite;
+	-webkit-animation: pulse 20s infinite;
 	width: 28%;
 	left: 55%;
 }
