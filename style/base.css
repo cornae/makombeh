@@ -1,0 +1,185 @@
+@import url("fontello/css/fontello.css");
+@import url("animate.css/animate.min.css");
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600);
+
+body {
+	background-color: #312d2a;
+	color: white;
+	margin: 0;
+	font: 200 18px/1.6 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
+	background-image: background: rgb(49,45,42); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(49,45,42,1) 0%, rgba(37,55,44,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(49,45,42,1)), color-stop(100%,rgba(37,55,44,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(49,45,42,1) 0%,rgba(37,55,44,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(49,45,42,1) 0%,rgba(37,55,44,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(49,45,42,1) 0%,rgba(37,55,44,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(49,45,42,1) 0%,rgba(37,55,44,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#312d2a', endColorstr='#25372c',GradientType=0 ); /* IE6-9 */
+;
+}
+
+@media only screen and (min-width: 1040px) {
+	body {
+	font-size: 22px;
+}
+}
+
+a {
+	color: #d9fcc7;
+	text-decoration: none;
+}
+
+strong {
+	font-weight: 600;
+}
+
+p,ul,ol,table,dl,h1,h2 {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+
+#site-header {
+	margin-bottom: -28%;
+	background: url(bushes.jpg) no-repeat;
+	background-size: 100% auto;
+	position: relative;
+	z-index: -1;
+}
+
+article {
+	padding-left: 25%;
+	box-sizing: border-box;
+	display: block;
+	padding-right: 10%;
+}
+
+#appendix {
+	position: relative;
+	overflow: hidden;
+}
+
+#footer-image,
+#header-image {
+	width: 100%;
+	display: block;
+	z-index: 2;
+	position: relative;
+}
+
+#children-foreground {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+}
+
+#appendix .balloon {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+#appendix #balloon-1 {
+	z-index: 2;
+	animation: swing 50s infinite;
+	bottom: -5%;
+}
+
+#appendix #balloon-2 {
+	z-index: 2;
+	animation: swing 30s infinite;
+}
+
+#appendix #balloon-3 {
+	z-index: 1;
+	animation: swing 40s infinite;
+}
+
+#appendix #balloon-4 {
+	z-index: 1;
+	animation: swing 80s infinite;
+}
+
+#appendix #balloon-5 {
+	z-index: 4;
+	bottom: -10%;
+	animation: swing 50s infinite;
+}
+
+#appendix #balloon-6 {
+	z-index: 4;
+	animation: pulse 15s infinite;
+	transform-origin: bottom center;
+}
+
+#appendix #balloon-7 {
+	z-index: 4;
+	bottom: 38%;
+	animation: pulse 20s infinite;
+	width: 28%;
+	left: 55%;
+}
+
+#appendix p {
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+	left: 0;
+	text-align: center;
+	padding-bottom: 10px;
+	margin: 0;
+	z-index: 5;
+}
+
+hgroup {
+	position: absolute;
+	top: 36px;
+}
+
+img  {
+	max-width: 100%;
+}
+
+article .outdent {
+	float: left;
+	width: 30%;
+	margin: 5px 4% 1em -20%;
+}
+
+h1 {
+	margin: 0;
+	font-weight: 200;
+	font-size: 2.5em;
+	line-height: 1.1em;
+}
+
+hgroup h2 {
+	margin-top: 0;
+	font-weight: 200;
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+#logo {
+	position: absolute;
+	top: 50px;
+	left: 12%;
+	width: 10%;
+}
+
+/* @group Auto scale */
+
+.pat-auto-scale {	
+	transform-origin: left top;
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+
+.pat-auto-scale.scaled {
+	opacity: 1;
+}
+
+/* @end */ }*/
