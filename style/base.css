@@ -55,6 +55,12 @@ article {
 	overflow: hidden;
 }
 
+article section h1 {
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1.6;
+}
+
 #appendix {
 	position: relative;
 	margin-left: -40%;
