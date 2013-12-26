@@ -55,6 +55,13 @@ article {
 	overflow: hidden;
 }
 
+article blockquote {
+	border-left: 4px solid white;
+	margin-left: 0;
+	padding-left: 4%;
+	font-size: 1.3em;
+}
+
 article section h1 {
 	font-size: 1em;
 	font-weight: 600;
