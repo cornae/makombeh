@@ -1,112 +1,19 @@
-<!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9" lang="en"> <![endif]-->
-<!--[if IE 9]>    <html class="no-js lt-ie10" lang="en"> <![endif]-->
-<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-	<head>
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta charset="utf-8">
+---
+layout: shell
+---
 
-		<title>
-			Stichting Makombeh
-		</title>
+{% capture body %}{% include homepage.md %}{% endcapture %}
+{{ body | markdownify }}
 
-		<meta name="description" content="">
-
-		<!-- Mobile viewport optimized: h5bp.com/viewport -->
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-
-		<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
-		<link rel="stylesheet" href="style/base.css" type="text/css" media="all">
-
-		<!--[if lt IE 9]>
-		<script src="libraries/html5shiv.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<header id="site-header">
-			<img id="logo" src="media/logo-white.svg" alt="Makombeh logo" />
-			<img id="header-image" src="media/group.png" alt="Group of people" />
-		</header>
-		<article id="main">
-			<hgroup>
-				<h1>Stichting Makombeh</h1>
-				<h2>Onderwijsprojecten in Sierra Leone</h2>
-			</hgroup>
-			<pre class="pat-markdown">
-Stichting Makombeh helpt 150 jongens en meisjes (4-12 jaar) in Sierra 
-Leone aan een betere toekomst door het volgende te bieden:
-
-1. een school (3 klaslokalen)
-2. vier leerkrachten (2 betaald en 2 vrijwilligers)
-3. lesmaterialen + speelgoed + speelveld
-4. uniforms
-5. sanitair + aanvullende gezondheidsonderwijs aan ouders
-			</pre>
-			<img src="media/group-with-ball.jpeg" alt="Group of children with a ball" class="outdent" />
-			<pre class="pat-markdown">
-De school wordt gerund door de gemeenschap zelf, waarbij de moeders 
-in de middag eten koken voor de kinderen. Het project gaat in 2013/2014 
-zijn zesde schooljaar in en de eerst 6 kinderen hebben hun examen naar 
-de middelbare school met succes voltooid.
-
-De school kan draaiende gehouden worden met een budget van 6.000 EURO 
-per jaar. Er zijn onvoldoende klassen voor het aantal kinderen op de 
-school, daarom willen we in 2014 drie nieuwe klaslokalen erbij bouwen. 
-Hiervoor hebben we een extra 2.000 EURO nodig. Om te helpen dit 
-mogelijk te maken stort aub een bijdrage op rekeningnummer: 
-
-> **NL60 RABO 0106124153**  
-t.n.v. Stichting Makombeh. 
-
-Laat ons aub via [info@stichtingmakombeh.nl](mailto:info@stichtingmakombeh.nl) weten dat u geld gestort heeft.
-			</pre>
-
-			<ul class="pat-gallery">
-				<li><a href="media-archive/113.JPG"><img src="media-archive/113.JPG" title="Makombeh"/></a></li>
-				<li><a href="media-archive/131.JPG"><img src="media-archive/131.JPG" title="Makombeh"/></a></li>
-				<li><a href="media-archive/134.JPG"><img src="media-archive/134.JPG" title="Makombeh"/></a></li>
-				<li><a href="media-archive/148.JPG"><img src="media-archive/148.JPG" title="Makombeh"/></a></li>
-				<li><a href="media-archive/reading-child.jpg"><img src="media-archive/reading-child.jpg" title="Lezend kind"/></a></li>
-				<li><a href="media-archive/reunie.jpg"><img src="media-archive/reunie.jpg" title="Reunie"/></a></li>
-				<li><a href="media-archive/reunie-2.jpg"><img src="media-archive/reunie-2.jpg" title="Reunie"/></a></li>
-				<li><a href="media-archive/child-from-above.jpg"><img src="media-archive/child-from-above.jpg" title="Kindje"/></a></li>
-				<li><a href="media-archive/IMGP0328.JPG"><img src="media-archive/IMGP0328.JPG" title="Makombeh"/></a></li>
-				<li><a href="media-archive/teacher-board.jpg"><img src="media-archive/teacher-board.jpg" title="Makombeh"/></a></li>
-			</ul>
-
-			<pre class="pat-markdown">
-### Over Stichting Makombeh
-
-Stichting Makombeh is opgericht in januari 2008 en heeft als doel het bevorderen van onderwijs- en onderwijsondersteunende activiteiten in de ruimste zin van het woord in Sierra Leone. De stichting is door de belastingdienst erkend als een Algemeen Nut Beoogde Instelling (ANBI), met als fiscaalnummer: 819028228. 
-
-De stichting is gehuisvest op de Kerkstraat 7-A-bis, 3581 RA te Utrecht. 
-
-Voorzitter: Jan Derks  
-Secretaris: Marc Cornelissen  
-Penningmeester: Antje Kwee
-
-De bestuursleden ontvangen geen beloning noch enige tegemoetkoming in kosten. De stichting heeft geen personeel in dienst. Al het geld dat binnenkomt gaat naar de school in Sierra Leone. Daar maakt de stichting gebruik van een inheemse non profit organisatie die de noodzakelijke werkzaamheden uitvoert en de leraren op de school betaalt. De stichting werft onder vrienden en bekenden geld voor dit project. Daarnaast probeert het bestuur om ook op andere wijze geld in te zamelen, bijvoorbeeld door het project onder de aandacht te brengen van subsidieverleners. Jaarlijks keert de stichting ongeveer € 5.000 tot € 6.000 uit voor de school. Van dit geld worden de leraren betaald, lesmateriaal en meubilair ingekocht, sanitatie-projecten uitgevoerd, het schoolgebouw onderhouden en waar nodig uitgebreid en verder alle andere werkzaamheden of activiteiten die nodig zijn voor de school. Op dit moment (december 2013) heeft de stichting nog ruim € 4.000 in kas voor de komende kosten in 2014.
-			</pre>
-			<footer id="appendix" class="release">
-				<img id="footer-image" src="media/children.png" alt="Children" />
-				<img id="children-foreground" src="media/children-foreground.png" alt="Children" />
-				<img class="balloon" id="balloon-1" src="media/balloon-1.png" alt="Ballon" />
-				<img class="balloon" id="balloon-2" src="media/balloon-2.png" alt="Ballon" />
-				<img class="balloon" id="balloon-3" src="media/balloon-3.png" alt="Ballon" />
-				<img class="balloon" id="balloon-4" src="media/balloon-4.png" alt="Ballon" />
-				<img class="balloon" id="balloon-5" src="media/balloon-5.png" alt="Ballon" />
-				<img class="balloon" id="balloon-6" src="media/balloon-6.png" alt="Ballon" />
-				<img class="balloon" id="balloon-7" src="media/balloon-7.png" alt="Ballon" />
-				<p class="pat-bumper" data-pat-bumper="selector: #appendix">
-					<a href="https://www.facebook.com/stichtingmakombeh">Facebook</a> | Website door <a href="http://www.cornae.com">Cornelis Kolbach</a> met <a href="http://www.patternslib.com">Patterns</a>
-				</p>
-			</footer>
-		</article>
-		<script src="libraries/patterns-1.4.1-85-g73349b1-35a7f1bd.min.js"></script>
-	</body>
-</html>
+<ul class="pat-gallery">
+	<li><a href="{{ site.baseurl }}/media-archive/113.JPG"><img src="media-archive/113.JPG" title="Makombeh"/></a></li>
+	<li><a href="{{ site.baseurl }}/media-archive/131.JPG"><img src="media-archive/131.JPG" title="Makombeh"/></a></li>
+	<li><a href="{{ site.baseurl }}/media-archive/134.JPG"><img src="media-archive/134.JPG" title="Makombeh"/></a></li>
+	<li><a href="{{ site.baseurl }}/media-archive/148.JPG"><img src="media-archive/148.JPG" title="Makombeh"/></a></li>
+	<li><a href="{{ site.baseurl }}/media-archive/reading-child.jpg"><img src="media-archive/reading-child.jpg" title="Lezend kind"/></a></li>
+	<li><a href="{{ site.baseurl }}/media-archive/reunie.jpg"><img src="media-archive/reunie.jpg" title="Reunie"/></a></li>
+	<li><a href="{{ site.baseurl }}/media-archive/reunie-2.jpg"><img src="media-archive/reunie-2.jpg" title="Reunie"/></a></li>
+	<li><a href="{{ site.baseurl }}/media-archive/child-from-above.jpg"><img src="media-archive/child-from-above.jpg" title="Kindje"/></a></li>
+	<li><a href="{{ site.baseurl }}/media-archive/IMGP0328.JPG"><img src="media-archive/IMGP0328.JPG" title="Makombeh"/></a></li>
+	<li><a href="{{ site.baseurl }}/media-archive/teacher-board.jpg"><img src="media-archive/teacher-board.jpg" title="Makombeh"/></a></li>
+</ul>

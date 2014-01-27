@@ -1,0 +1,6 @@
+title: Star Alliance
+author: Marc Cornelissen
+baseurl: http://www.stichtingmakombeh.nl
+domain: stichtingmakombeh
+media: /media
+permalink: /:title
