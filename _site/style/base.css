@@ -69,8 +69,10 @@ article section h3 {
 }
 
 .menu {
-	padding: 0;
 	margin: 0 0 1.5em;
+	overflow: visible;
+	line-height: 1.2em;
+	padding: 0;
 }
 
 .menu li {
@@ -85,7 +87,7 @@ article section h3 {
 	display: block;
 	background-color: #d9fcc7;
 	color: #2e2e2a;
-	padding: 5px 5px 5px 15px;
+	padding: 10px 5px 10px 15px;
 	transition: transform 0.3s;
 }
 
@@ -137,10 +139,11 @@ article section h3 {
 
 .menu li.current a {
 	background-color: white;
-	border: 3px double white;
+	border: 1px solid #2b2b28;
 	margin: -3px;
   	transform: rotateY( 0deg ) rotateX( 0deg );
   	cursor: default;
+  	box-shadow: 0 0 4px 0 white;
 }
 
 /* @end */
