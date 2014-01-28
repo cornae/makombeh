@@ -4,3 +4,42 @@ baseurl: http://www.stichtingmakombeh.nl
 domain: stichtingmakombeh
 media: /media
 permalink: /:title
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://www.stichtingmakombeh.nl/'
+  relativeLinks: 'http://www.stichtingmakombeh.nl/links.jsonp'
+  media: 'media/'
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /media
+    - /lib
+    - /work
+    - /style
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "shell"
+      - name: "title"
+        field:
+          element: "text"
+          placeholder: "Title"
+          label: "Document title"
+      - name: "summary"
+        field:
+          element: "text"
+          label: "Document summary"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""

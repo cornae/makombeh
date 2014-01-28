@@ -1,0 +1,14 @@
+---
+
+---
+
+callback([
+
+  {% for node in site.pages %}
+  {
+    "text": "{{ node.design-title }}",
+    "href": "{{ site.baseurl}}{{ node.url }}"
+  } ,
+  {% endfor %}
+
+])
