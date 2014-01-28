@@ -6,12 +6,12 @@ callback([
 
   {
     "text": "Homepage",
-    "href": "{{ site.baseurl}}/"
+    "href": "/"
   }
   {% for post in site.posts %},
   {
     "text": "{{ post.title }}",
-    "href": "{{ site.baseurl}}{{ post.url }}"
+    "href": "{{ post.url }}"
   }
   {% endfor %}
 
