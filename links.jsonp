@@ -4,11 +4,15 @@
 
 callback([
 
-  {% for node in site.pages %}
   {
-    "text": "{{ node.design-title }}",
-    "href": "{{ site.baseurl}}{{ node.url }}"
-  } ,
+    "text": "Homepage",
+    "href": "{{ site.baseurl}}/"
+  }
+  {% for post in site.posts %},
+  {
+    "text": "{{ post.title }}",
+    "href": "{{ site.baseurl}}{{ post.url }}"
+  }
   {% endfor %}
 
 ])
