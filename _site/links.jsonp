@@ -6,6 +6,11 @@ callback([
   }
   ,
   {
+    "text": "Homepage",
+    "href": "/homepage"
+  }
+  ,
+  {
     "text": "Over de stichting",
     "href": "/over"
   }

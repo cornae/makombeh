@@ -3,7 +3,12 @@ layout: shell
 ---
 
 {% capture body %}{% include homepage.md %}{% endcapture %}
-{{ body | markdownify }}
+
+{% for post in site.posts %}
+	{% if post.id == '/homepage' %}
+		{{ post.content | markdownify }}
+	{% endif %}
+{% endfor %}
 
 <ul class="pat-gallery">
 	<li><a href="{{ site.baseurl }}/media-archive/113.JPG"><img src="media-archive/113.JPG" title="Makombeh"/></a></li>
