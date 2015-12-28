@@ -7,4 +7,4 @@ attachments:
     file: /media/nieuwsbrieven/12-2015.pdf
 ---
 
-Download hieroner de nieuwsbrief van december 2015.
+Download hieroner de nieuwsbrief van december 2015 in PDF-formaat.

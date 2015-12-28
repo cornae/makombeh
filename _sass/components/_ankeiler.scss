@@ -4,8 +4,16 @@
 	left: 26%;
 	z-index: 10;
 
+	@include screen-size(small) {
+		top: 33px;
+	}
+
   	h1 {
   		color: white;
+
+  		@include screen-size(small) {
+			font-size: 1em;
+  		}
   	}
 
 	h2 {
@@ -14,4 +22,7 @@
 		font-size: 1em;
 		line-height: 1.8em;
 	}
+
+
+      
 }

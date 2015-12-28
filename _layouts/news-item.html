@@ -8,13 +8,15 @@ layout: shell
 
 {{ content }}
 
-<h4>
-	Bijlagen
-</h4>
-<ul>
-	{% for item in page.attachments %}
-		<li>
-			<a href="{{ item.file }}">{{ item.name }}</a>
-		</li>
-	{% endfor %}
-</ul>
+{% if page.attachments %}
+	<h4>
+		Bijlagen
+	</h4>
+	<ul class="menu">
+		{% for item in page.attachments %}
+			<li>
+				<a href="{{ item.file }}" class="icon-download">{{ item.name }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+{% endif %}

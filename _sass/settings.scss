@@ -10,9 +10,10 @@
 // @import "libraries/reset";
 // @import "libraries/animation";
 // @import "libraries/animate/animate";
-// @import "libraries/patterns/patterns";
+@import "libraries/patterns/patterns";
 
 // Components 
+@import "components/ankeiler";
 @import "components/article";
 @import "components/content";
-@import "components/ankeiler";
+@import "components/menu";

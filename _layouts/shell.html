@@ -27,7 +27,7 @@
 		<script src="libraries/html5shiv.js"></script>
 		<![endif]-->
 	</head>
-	<body>
+	<body class="{% if page.url == '/' %}page-homepage{% endif %}">
 		<header id="site-header">
 			<a id="logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/media/logo-white.svg" alt="Makombeh logo" /></a>
 			<img id="header-image" src="{{ site.baseurl }}/media/group.png" alt="Group of people" />
@@ -41,7 +41,7 @@
 		<div id="main">
 			<aside id="sidebar" class="outdent">
 
-			<ul class="menu navigation">
+			<ul class="navigation" id="global-navigation">
 				{% for post in site.posts %}
 					{% if post.id != '/homepage' and post.layout != 'news-item' %}
 						<li {% if page.url == post.url %}class="current"{% endif %}>

@@ -71,16 +71,33 @@ p, ul, ol, table, dl, h1, h2 {
   z-index: 10;
   padding-top: 5px;
 
-	.menu {
+
+  @include screen-size(small) {
+    margin-bottom: 1.5em;
+  }
+
+	#global-navigation {
 	  margin: 0 0 1.5em;
 	  overflow: visible;
 	  line-height: 1.2em;
 	  padding: 0;
+
+    
+    @include screen-size(small) {
+      display: none;
+      .page-homepage & {
+        display: block;
+      }
+    }
+
 	  li {
 	    display: block;
 	    padding: 0;
 	    margin-bottom: 15px;
 	    perspective: 100px;
+      @include screen-size(small) {
+        perspective: 800px;
+      }
 	    a {
 	      display: block;
 	      background-color: #d9fcc7;
@@ -133,26 +150,27 @@ p, ul, ol, table, dl, h1, h2 {
 	}
 }
 
-/* @group Malevichification */
-
-/* @end */
-
-article p {
-  position: relative;
-}
-
 #main {
   padding-left: 25%;
   box-sizing: border-box;
   display: block;
   padding-right: 10%;
   overflow: hidden;
+
+  @include screen-size(small) {
+    padding-left: 10%;
+  }
 }
 
 #appendix {
   position: relative;
   margin-left: -40%;
   margin-right: -16%;
+
+  @include screen-size(small) {
+    margin-left: -13%;
+    margin-right: -13%;
+  }
 }
 
 #footer-image, 
@@ -250,9 +268,11 @@ img {
 }
 
 #main .outdent {
-  float: left;
-  width: 35%;
-  margin: 5px 6% 1em -20%;
+  @include screen-size(large) {
+    float: left;
+    width: 35%;
+    margin: 5px 6% 1em -20%;
+  }
 }
 
 h1 {
@@ -268,6 +288,11 @@ h1 {
   left: 12%;
   width: 10%;
   z-index: 10;
+
+  @include screen-size(small) {
+    top: 35px;
+  }
+
   img {
     width: 100%;
   }

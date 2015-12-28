@@ -6,8 +6,18 @@ callback([
   }
   ,
   {
+    "text": "Website stichtingmakombeh.nl nu ook op mobiel",
+    "href": "/stichting-makombeh-mobiel"
+  }
+  ,
+  {
+    "text": "Nieuwe nieuwssectie op stichtingmakombeh.nl",
+    "href": "/nieuwspaginas"
+  }
+  ,
+  {
     "text": "Nieuwsbrief december 2015",
-    "href": "/Nieuwsbrief-December-2015"
+    "href": "/nieuwsbrief-december-2015"
   }
   ,
   {
