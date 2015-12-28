@@ -1,0 +1,20 @@
+---
+layout: shell
+---
+
+<h2>
+	{{ page.title }}
+</h2>
+
+{{ content }}
+
+<h4>
+	Bijlagen
+</h4>
+<ul>
+	{% for item in page.attachments %}
+		<li>
+			<a href="{{ item.file }}">{{ item.name }}</a>
+		</li>
+	{% endfor %}
+</ul>

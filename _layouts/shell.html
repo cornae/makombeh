@@ -31,19 +31,19 @@
 		<header id="site-header">
 			<a id="logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/media/logo-white.svg" alt="Makombeh logo" /></a>
 			<img id="header-image" src="{{ site.baseurl }}/media/group.png" alt="Group of people" />
-		</header>
-		<article id="main">
-			<hgroup>
+			<hgroup id="ankeiler">
 				<a href="{{ site.baseurl }}/">
 					<h1>Stichting Makombeh</h1>
 					<h2>Onderwijsprojecten in Sierra Leone</h2>
 				</a>
 			</hgroup>
+		</header>
+		<div id="main">
 			<aside id="sidebar" class="outdent">
 
 			<ul class="menu navigation">
 				{% for post in site.posts %}
-					{% if post.id != '/homepage' %}
+					{% if post.id != '/homepage' and post.layout != 'news-item' %}
 						<li {% if page.url == post.url %}class="current"{% endif %}>
 					         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> 
 					    </li>
@@ -54,11 +54,11 @@
 			<div class="fb-like" data-href="https://www.facebook.com/stichtingmakombeh" data-width="200" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
 		</aside>
-		<section>
+		<article id="content">
 			{{ content }}
-		</section>
-		{% include site-footer.html %}
 		</article>
+		{% include site-footer.html %}
+		</div>
 		<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;

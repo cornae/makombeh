@@ -6,6 +6,11 @@ callback([
   }
   ,
   {
+    "text": "Nieuwsbrief december 2015",
+    "href": "/Nieuwsbrief-December-2015"
+  }
+  ,
+  {
     "text": "Home",
     "href": "/homepage"
   }
@@ -18,6 +23,11 @@ callback([
   {
     "text": "Waarom",
     "href": "/waarom"
+  }
+  ,
+  {
+    "text": "Nieuws",
+    "href": "/nieuws"
   }
   ,
   {

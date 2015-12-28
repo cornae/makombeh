@@ -4,6 +4,8 @@ baseurl: http://www.stichtingmakombeh.nl
 domain: stichtingmakombeh
 media: /media
 permalink: /:title
+sass:
+  style: compressed
 prose:
   rooturl: '_posts'
   siteurl: 'http://www.stichtingmakombeh.nl/'
