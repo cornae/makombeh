@@ -290,7 +290,8 @@ h1 {
   z-index: 10;
 
   @include screen-size(small) {
-    top: 35px;
+    top: 30px;
+    left: 10%;
   }
 
   img {

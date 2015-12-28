@@ -6,13 +6,15 @@
 
 	@include screen-size(small) {
 		top: 33px;
+		left: 24%;
 	}
 
   	h1 {
   		color: white;
+			font-weight: 400;
 
   		@include screen-size(small) {
-			font-size: 1em;
+			font-size: 1.4em;
   		}
   	}
 
@@ -21,6 +23,11 @@
 		font-weight: 200;
 		font-size: 1em;
 		line-height: 1.8em;
+		color: white;
+
+  		@include screen-size(small) {
+			display: none;
+  		}
 	}
 
 
