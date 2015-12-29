@@ -1,10 +1,10 @@
 ---
-layout: news-item
+layout: "news-item"
 published: true
 title: Nieuwsbrief december 2015
 attachments:
   - name: Nieuwsbrief december 2015
-    file: /media/nieuwsbrieven/12-2015.pdf
+    file: "/media/nieuwsbrieven/12-2015.pdf"
 ---
 
 ### Een succesvolle doorstart na een moeilijk jaar
