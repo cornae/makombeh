@@ -22,7 +22,7 @@ prose:
     - /style
   metadata:
     _posts:
-      - name: "Template"
+      - name: "layout"
         field:
           element: "select"
           label: "Template"
