@@ -10,7 +10,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://www.stichtingmakombeh.nl/'
   relativeLinks: 'http://www.stichtingmakombeh.nl/links.jsonp'
-  media: 'media/'
+  media: 'media/illustrations/'
   ignore:
     - index.html
     - _config.yml
