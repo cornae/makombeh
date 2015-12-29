@@ -1,6 +1,6 @@
 ---
 layout: news-item
-published: true
+published: false
 title: "Website stichtingmakombeh.nl nu ook op mobiel"
 ---
 

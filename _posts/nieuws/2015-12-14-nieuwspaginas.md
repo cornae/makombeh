@@ -1,6 +1,6 @@
 ---
 layout: news-item
-published: true
+published: false
 title: "Nieuwe nieuwssectie op stichtingmakombeh.nl"
 ---
 
