@@ -22,10 +22,16 @@ prose:
     - /style
   metadata:
     _posts:
-      - name: "layout"
+      - name: "tags"
         field:
-          element: "hidden"
-          value: "shell"
+          element: "select"
+          label: "Template"
+          placeholder: "Kies een template"
+          options:
+            - name: "Hoofdpagina"
+              value: "generic"
+            - name: "Nieuwspagina"
+              value: "news-item"
       - name: "title"
         field:
           element: "text"
