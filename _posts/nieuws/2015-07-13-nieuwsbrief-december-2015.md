@@ -19,7 +19,11 @@ Vorig jaar stond Sierra Leone en ook Makombeh helaas in het teken van het Ebola 
 
 Inmiddels is het al weer 8 jaar geleden dat in Makombeh de eerste lessen van start gingen. Een aantal kinderen uit het dorp werd destijds op provisorische wijze les gegeven onder beschutting van bomen. Dit jaar wordt aan een record aantal van 155 kinderen in de leeftijd van 6 tot 12 jaar onderwijs gegeven, door 3 vaste en 3 ondersteunende leerkrachten. Inmiddels krijgen de meeste kinderen les in ons stenen schoolgebouw. Een ontwikkeling waar we trots op zijn!
 
+![](/media/illustrations/adamsay-sesay-en-adamsay-bangura.jpg)
+
 Tijdens zijn bezoek vorige maand aan Mekombeh, sprak Eamonn onder andere met 2 meisjes van het 1e uur, Adamsay Sesay en Adamsy Bangura. Zij zijn respectievelijk 7 en 8 jaar geleden begonnen op onze school en inmiddels met succes doorgestroomd naar de 1e en 2e klas van de middelbare school in een naburig dorp.  Dit hadden zij niet kunnen bereiken zonder het volgen van de lessen op onze school. Dit was een mooi voorbeeld voor Solo Bangura. Deze 6 jarige jongen werkte tot enkele weken geleden nog op het land bij zijn vader. Dankzij bemiddeling door Eamonn, is Solo onlangs vol trots begonnen met het volgen van zijn eerste lessen.
+
+![](/media/illustrations/solo-banguro.jpg)
 
 ### De toekomstplannen voor de school
 

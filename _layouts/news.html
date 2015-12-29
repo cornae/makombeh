@@ -8,7 +8,7 @@ layout: shell
 	{% for post in site.posts %}
 		{% if post.layout == 'news-item' %}
 			<li>
-				<a href="{{ post.url }}" class="icon-right-big">{{ post.title }}</a>
+				<a href="{{ post.url }}#main" class="icon-right-big pat-inject" data-pat-inject="history: record">{{ post.title }}</a>
 			</li>
 		{% endif %}
 	{% endfor %}
