@@ -141,11 +141,11 @@ p, ul, ol, table, dl, h1, h2 {
 	    }
 	    &.current a {
 	      background-color: white;
-	      border: 1px solid #2b2b28;
-	      margin: -3px;
+	      // border: 1px solid #2b2b28;
+	      // margin: -3px;
 	      transform: rotateY(0deg) rotateX(0deg);
 	      cursor: default;
-	      box-shadow: 0 0 4px 0 white;
+	      // box-shadow: 0 0 4px 0 white;
 	    }
 	  }
 	}
