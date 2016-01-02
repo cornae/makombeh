@@ -27,7 +27,7 @@
 		<script src="libraries/html5shiv.js"></script>
 		<![endif]-->
 	</head>
-	<body class="{% if page.url == '/' %}page-homepage{% endif %}">
+	<body class="{{ page.class }}">
 		<header id="site-header">
 			<a id="logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/media/logo-white.svg" alt="Makombeh logo" /></a>
 			<img id="header-image" src="{{ site.baseurl }}/media/group.png" alt="Group of people" />
