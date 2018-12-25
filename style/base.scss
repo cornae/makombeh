@@ -192,17 +192,17 @@ p, ul, ol, table, dl, h1, h2 {
     bottom: 0;
     left: 0;
     width: 100%;
-    transition: all 9s ease-out;
+    // transition: all 9s ease-out;
     -moz-pointer-events: none;
     -webkit-pointer-events: none;
     pointer-events: none;
   }
-  &:not(.bumped-bottom) {
-    #balloon-1, #balloon-2, #balloon-3, #balloon-4 {
-      bottom: 100%;
-      opacity: 0;
-    }
-  }
+  // &:not(.bumped-bottom) {
+  //   #balloon-1, #balloon-2, #balloon-3, #balloon-4 {
+  //     bottom: 100%;
+  //     opacity: 0;
+  //   }
+  // }
   #balloon-1 {
     z-index: 2;
     animation: swing 30s infinite;
