@@ -6,41 +6,26 @@
 @import "settings";
 
 html {
-  background-color: #d9fcc7;
+  background-color: white;
 }
 
 body {
   max-width: 1000px;
-  background-color: #312d2a;
-  color: white;
+  background-color: white;
+  color: black;
   margin: 0 auto;
-  font: 200 18px/1.6 'Source Sans Pro', sans-serif;
+  font: 400 18px/1.6 'Source Sans Pro', sans-serif;
   letter-spacing: 1px;
-  background: rgb(49, 45, 42);
-  /* Old browsers */
-  background: -moz-linear-gradient(top, rgba(49, 45, 42, 1) 0%, rgba(37, 55, 44, 1) 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(49, 45, 42, 1)), color-stop(100%, rgba(37, 55, 44, 1)));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(49, 45, 42, 1) 0%, rgba(37, 55, 44, 1) 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(49, 45, 42, 1) 0%, rgba(37, 55, 44, 1) 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(49, 45, 42, 1) 0%, rgba(37, 55, 44, 1) 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, rgba(49, 45, 42, 1) 0%, rgba(37, 55, 44, 1) 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#312d2a', endColorstr='#25372c',GradientType=0 );
-  /* IE6-9 */
+  background: #e6dfcd;
 }
 
 a {
-  color: #d9fcc7;
+  color: $colour-link;
   text-decoration: none;
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 800;
 }
 
 p, ul, ol, table, dl, h1, h2 {
@@ -100,8 +85,8 @@ p, ul, ol, table, dl, h1, h2 {
       }
 	    a {
 	      display: block;
-	      background-color: #d9fcc7;
-	      color: #2e2e2a;
+	      background-color: $colour-link;
+	      color: white;
 	      padding: 10px 5px 10px 15px;
 	      transition: transform 0.3s;
         font-weight: 400;
@@ -140,7 +125,7 @@ p, ul, ol, table, dl, h1, h2 {
 	      transform: rotateY(0deg) rotateX(0deg);
 	    }
 	    &.current a {
-	      background-color: white;
+        background-color: darken($colour-link , 20%);
 	      // border: 1px solid #2b2b28;
 	      // margin: -3px;
 	      transform: rotateY(0deg) rotateX(0deg);
@@ -167,6 +152,14 @@ p, ul, ol, table, dl, h1, h2 {
   position: relative;
   margin-left: -41.6%;
   margin-right: -16%;
+  color: white;
+  text-shadow: 0 0 5px black;
+
+  a {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 
   @include screen-size(small) {
     margin-left: -13%;
