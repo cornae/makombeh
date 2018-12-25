@@ -21,7 +21,7 @@
 
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
-		<link rel="stylesheet" href="{{ site.baseurl }}/style/base.css" type="text/css" media="all">
+		<link rel="stylesheet" href="/style/base.css" type="text/css" media="all">
 
 		<!--[if lt IE 9]>
 		<script src="libraries/html5shiv.js"></script>
@@ -29,10 +29,10 @@
 	</head>
 	<body class="{{ page.class }}">
 		<header id="site-header">
-			<a id="logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/media/logo-white.svg" alt="Makombeh logo" /></a>
-			<img id="header-image" src="{{ site.baseurl }}/media/group.png" alt="Group of people" />
+			<a id="logo" href="/"><img src="/media/logo-white.svg" alt="Makombeh logo" /></a>
+			<img id="header-image" src="/media/group.png" alt="Group of people" />
 			<hgroup id="ankeiler">
-				<a href="{{ site.baseurl }}/">
+				<a href="/">
 					<h1>Stichting Makombeh</h1>
 					<h2>Onderwijsprojecten in Sierra Leone</h2>
 				</a>
@@ -45,7 +45,7 @@
 				{% for post in site.posts %}
 					{% if post.id != '/homepage' and post.layout != 'news-item' %}
 						<li {% if page.url == post.url %}class="current"{% endif %}>
-					         <a href="{{ site.baseurl }}{{ post.url }}#main" class="pat-inject" data-pat-inject="history: record">{{ post.title }}</a> 
+					         <a href="{{ post.url }}#main" class="pat-inject" data-pat-inject="history: record">{{ post.title }}</a> 
 					    </li>
 					{% endif %}
 			  {% endfor %}
@@ -63,9 +63,9 @@
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;
 		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/nl_NL/all.js#xfbml=1&appId=251340481561072";
+		  js.src = "/connect.facebook.net/nl_NL/all.js#xfbml=1&appId=251340481561072";
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
-		<script src="{{ site.baseurl }}/libraries/patterns-1.4.1-85-g73349b1-35a7f1bd.min.js"></script>
+		<script src="/libraries/patterns-1.4.1-85-g73349b1-35a7f1bd.min.js"></script>
 	</body>
 </html>
