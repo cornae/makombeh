@@ -1,7 +1,7 @@
 #ankeiler {
 	position: absolute;
   	top: 42px;
-	left: 26%;
+	left: 24.5%;
 	z-index: 10;
 
 	@include screen-size(small) {
@@ -10,7 +10,7 @@
 	}
 
   	h1 {
-  		color: white;
+  		color: black;
 			font-weight: 400;
 
   		@include screen-size(small) {
@@ -20,10 +20,10 @@
 
 	h2 {
 		margin-top: 0;
-		font-weight: 200;
+		font-weight: 400;
 		font-size: 1em;
 		line-height: 1.8em;
-		color: white;
+		color: black;
 
   		@include screen-size(small) {
 			display: none;
