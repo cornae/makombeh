@@ -6,6 +6,12 @@ layout: shell
 	{{ page.title }}
 </h2>
 
+{% if page.video %}
+	<video controls>
+	 	<source src="{{ page.video }}" type="video/mp4">
+	</video>
+{% endif %}
+
 {{ content }}
 
 {% if page.attachments %}
