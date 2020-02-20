@@ -14,7 +14,7 @@ layout: shell
 
 {{ content }}
 
-{% if page.attachments %}
+{% unless page.attachments.size == 0 %}
 	<h4>
 		Bijlagen
 	</h4>
@@ -25,4 +25,4 @@ layout: shell
 			</li>
 		{% endfor %}
 	</ul>
-{% endif %}
+{% endunless %}
