@@ -17,5 +17,3 @@ fields:
   label: Index
   description: Dit getal geeft de sorteervolgorde aan. Een lager getal betekent hoger
     in het menu.
-pages:
-- content/_algemeen/test.md
