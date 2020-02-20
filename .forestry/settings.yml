@@ -7,14 +7,18 @@ sections:
 - type: directory
   path: content/_algemeen
   label: Algemeen
-  create: none
+  create: documents
   match: "**/*"
+  templates:
+  - algemene-pagina
 - type: directory
   path: content/_nieuws
   label: Nieuws
   create: documents
   match: "**/*"
   new_doc_ext: "*.md"
+  templates:
+  - nieuwsbericht
 upload_dir: Media
 public_path: "/media"
 front_matter_path: ''
