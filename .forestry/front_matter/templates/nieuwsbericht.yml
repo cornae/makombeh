@@ -28,4 +28,4 @@ fields:
       maxSize: 250
     label: Bestand
 pages:
-- content/_nieuws/testbericht.*.md
+- content/_nieuws/test.*.md
