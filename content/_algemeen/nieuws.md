@@ -10,7 +10,7 @@ Op 10 november 2017 bracht het bestuur een bezoek aan de school om daar haar 10 
 
 Dit jubileum werd grootst gevierd met meerdere speeches, een sportdag voor de jeugd, en een grootst muziek en dansfeest voor de jongeren en ouders.
 
-![](/balloon-7.png)
+![](/balloon-7.png)![](/-archive/IMAG1713.jpg)
 
 Tijdens het bezoek is door het bestuur een toezegging gedaan om de school uit te breiden van 3 naar 6 klaslokalen. Deze uitbreiding, uitgevoerd door de lokale bevolking, is in mei 2018 afgerond.
 
