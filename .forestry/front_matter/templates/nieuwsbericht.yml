@@ -27,3 +27,14 @@ fields:
     config:
       maxSize: 250
     label: Bestand
+- name: date
+  type: datetime
+  label: Publicatiedatum
+  description: Deze datum wordt nergens getoond, maar is van belang voor de sortering
+    van de nieuwsberichten.
+  config:
+    required: false
+    date_format: DD-MM-YYYY
+    time_format: YYYY-MM-DD
+    display_utc: false
+  default: now
