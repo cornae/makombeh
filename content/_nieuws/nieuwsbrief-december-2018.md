@@ -2,6 +2,7 @@
 layout: "news-item"
 published: true
 title: Nieuwsbrief Stichting Makombeh, Sierra Leone – december 2018
+date: 2018-12-31
 attachments:
   - name: Nieuwsbrief Stichting Makombeh, Sierra Leone – december 2018
     file: "/media/nieuwsbrieven/12-2018.pdf"

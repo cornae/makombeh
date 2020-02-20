@@ -1,6 +1,7 @@
 ---
 layout: news-item
 published: false
+date: 2015-12-28
 title: "Website stichtingmakombeh.nl nu ook op mobiel"
 ---
 

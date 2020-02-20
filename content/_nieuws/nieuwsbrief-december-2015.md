@@ -1,6 +1,7 @@
 ---
 layout: "news-item"
 published: true
+date: 2015-07-13
 title: Nieuwsbrief december 2015
 attachments:
   - name: Nieuwsbrief december 2015

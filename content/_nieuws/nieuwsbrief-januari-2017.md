@@ -2,6 +2,7 @@
 layout: "news-item"
 published: true
 title: Nieuwsbrief januari 2017
+date: 2017-01-01
 attachments:
   - name: Nieuwsbrief januari 2017
     file: "/media/nieuwsbrieven/01-2017.pdf"

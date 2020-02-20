@@ -2,6 +2,7 @@
 layout: "news-item"
 published: true
 title: Nieuwsbrief Stichting Makombeh 2017
+date: 2017-12-01
 attachments:
   - name: Nieuwsbrief Stichting Makombeh 2017
     file: "/media/nieuwsbrieven/12-2017.pdf"
