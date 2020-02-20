@@ -19,7 +19,7 @@ fields:
   - type: text
     name: name
     label: Naam van bijlage
-    hidden: true
+    hidden: false
     config:
       required: true
   - name: file
@@ -27,3 +27,5 @@ fields:
     config:
       maxSize: 250
     label: Bestand
+pages:
+- content/_nieuws/testbericht.*.md
