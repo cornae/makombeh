@@ -4,6 +4,7 @@
 /.ssh/
 /Gemfile.lock
 /_site/
+_site
 /bin
 /include/
 /.jekyll-metadata
