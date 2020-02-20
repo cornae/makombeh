@@ -20,7 +20,7 @@ sections:
   templates:
   - nieuwsbericht
 upload_dir: media
-public_path: ''
+public_path: "/media"
 front_matter_path: "/media"
 use_front_matter_path: true
 file_template: ":filename:"
