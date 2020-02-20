@@ -5,16 +5,25 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: news-item
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Titel
+  config:
+    required: true
 - type: field_group_list
   name: attachments
-  label: attachments
+  label: Bijlagen
   fields:
   - type: text
     name: name
-    label: name
-  - type: file
-    name: file
-    label: file
+    label: Naam van bijlage
+    hidden: true
+    config:
+      required: true
+  - name: file
+    type: file
+    config:
+      maxSize: 250
+    label: Bestand
