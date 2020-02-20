@@ -5,11 +5,9 @@ layout: shell
 {{ content }}
 
 <ul class="menu news-items">
-	{% for post in site.nieuws %}
-		{% if post.layout == 'news-item' %}
-			<li>
-				<a href="{{ post.url }}#main" class="icon-right-big pat-inject" data-pat-inject="history: record">{{ post.title }}</a>
-			</li>
-		{% endif %}
+	{% for item in site.nieuws %}
+		<li>
+			<a href="{{ item.url }}#main" class="icon-right-big pat-inject" data-pat-inject="history: record">{{ item.title }}</a>
+		</li>
 	{% endfor %}
 </ul>

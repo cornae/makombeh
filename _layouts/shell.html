@@ -42,7 +42,7 @@
 			<aside id="sidebar" class="sidebar">
 
 			<ul class="navigation" id="global-navigation">
-				{% assign sorted_general = (site.algemeen | sort: 'index' %}
+				{% assign sorted_general = site.algemeen | sort: 'index' %}
             	{% for item in sorted_general %}
 					{% unless item.title == 'Home' %}
 						<li {% if page.url == item.url %}class="current"{% endif %}>
