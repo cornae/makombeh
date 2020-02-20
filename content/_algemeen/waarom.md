@@ -2,6 +2,7 @@
 layout: shell
 title: Waarom
 published: true
+index: 2
 ---
 
 ## Waarom

@@ -5,7 +5,7 @@ layout: shell
 {{ content }}
 
 <ul class="menu news-items">
-	{% for post in site.posts %}
+	{% for post in site.nieuws %}
 		{% if post.layout == 'news-item' %}
 			<li>
 				<a href="{{ post.url }}#main" class="icon-right-big pat-inject" data-pat-inject="history: record">{{ post.title }}</a>

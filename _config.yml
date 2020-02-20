@@ -4,6 +4,13 @@ baseurl: /
 domain: stichtingmakombeh
 media: /media
 permalink: /:title
+collections_dir: content
+collections:
+  algemeen:
+    output: true
+  nieuws:
+    output: true
+port: 4017
 sass:
   style: compressed
 prose:

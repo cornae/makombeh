@@ -2,6 +2,7 @@
 layout: news
 title: Nieuws
 published: true
+index: 3
 ---
 
 ## Nieuws

@@ -3,9 +3,9 @@ layout: shell
 class: page-homepage
 ---
 
-{% for post in site.posts %}
-	{% if post.id == '/homepage' %}
-		{{ post.content | markdownify }}
+{% for item in site.algemeen %}
+	{% if item.title == 'Home' %}
+		{{ item.content | markdownify }}
 	{% endif %}
 {% endfor %}
 

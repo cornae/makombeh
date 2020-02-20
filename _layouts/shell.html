@@ -42,12 +42,13 @@
 			<aside id="sidebar" class="sidebar">
 
 			<ul class="navigation" id="global-navigation">
-				{% for post in site.posts %}
-					{% if post.id != '/homepage' and post.layout != 'news-item' %}
-						<li {% if page.url == post.url %}class="current"{% endif %}>
-					         <a href="{{ post.url }}#main" class="pat-inject" data-pat-inject="history: record">{{ post.title }}</a> 
+				{% assign sorted_general = (site.algemeen | sort: 'index' %}
+            	{% for item in sorted_general %}
+					{% unless item.title == 'Home' %}
+						<li {% if page.url == item.url %}class="current"{% endif %}>
+					         <a href="{{ item.url }}#main" class="pat-inject" data-pat-inject="history: record">{{ item.title }}</a> 
 					    </li>
-					{% endif %}
+					{% endunless %}
 			  {% endfor %}
 			</ul>
 

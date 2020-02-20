@@ -2,6 +2,7 @@
 layout: shell
 title: Meedoen
 published: true
+index: 4
 ---
 
 ## Meedoen

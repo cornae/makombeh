@@ -2,6 +2,7 @@
 layout: shell
 title: Over de stichting
 published: true
+index: 1
 ---
 
 ## Over de stichting
