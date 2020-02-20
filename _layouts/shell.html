@@ -46,7 +46,7 @@
             	{% for item in sorted_general %}
 					{% unless item.title == 'Home' %}
 						<li {% if page.url == item.url %}class="current"{% endif %}>
-					         <a href="{{ item.url }}#main" class="pat-inject" data-pat-inject="history: record">{{ item.title }}</a> 
+					         <a href="{{ item.url }}#content" class="pat-inject" data-pat-inject="history: record">{{ item.title }}</a> 
 					    </li>
 					{% endunless %}
 			  {% endfor %}
@@ -57,6 +57,10 @@
 		</aside>
 		<article id="content" class="pat-rich">
 			{{ content }}
+			<a hidden 
+	   href="#content" 
+	   class="pat-scroll" 
+	   data-pat-scroll="selector: #site-logo; trigger: auto">Naar boven</a>
 		</article>
 		{% include site-footer.html %}
 		</div>
@@ -67,6 +71,6 @@
 		  js.src = "/connect.facebook.net/nl_NL/all.js#xfbml=1&appId=251340481561072";
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
-		<script src="/libraries/patterns-1.4.1-85-g73349b1-35a7f1bd.min.js"></script>
+		<script src="/libraries/bundle.min.js"></script>
 	</body>
 </html>

@@ -1,7 +1,8 @@
 #content {
 	position: relative;
 	z-index: 1;
-
+	padding-top: 60px;
+	margin-top: -60px;
 
 	@include screen-size(medium-large) {
 		float: left;
