@@ -16,7 +16,7 @@ sections:
   label: Nieuws
   create: documents
   match: "**/*"
-  new_doc_ext: "*.md"
+  new_doc_ext: ''
   templates:
   - nieuwsbericht
 upload_dir: Media
