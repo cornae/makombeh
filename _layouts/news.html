@@ -5,7 +5,8 @@ layout: shell
 {{ content }}
 
 <ul class="menu news-items">
-	{% for item in site.nieuws %}
+	{% assign sorted_news = (site.nieuws | sort: 'date' | reverse %}
+	{% for item in sorted_news %}
 		<li>
 			<a href="{{ item.url }}#main" class="icon-right-big pat-inject" data-pat-inject="history: record">{{ item.title }}</a>
 		</li>
