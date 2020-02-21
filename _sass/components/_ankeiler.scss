@@ -1,24 +1,33 @@
 #ankeiler {
 	position: absolute;
   	top: 42px;
-	left: 24.5%;
+	left: 50%;
+	transform: translateX(-50%);
 	z-index: 10;
+	width: 100%;
+	max-width: 1000px;
+	padding: 0 20px 0 140px;
+	display: block;
+	box-sizing: border-box;
 
-	@include screen-size(small) {
-		top: 33px;
-		left: 24%;
+	img {
+		width: 90px;
+		position: absolute;
+		left: 20px;
+		top: 0;
 	}
 
-  	h1 {
+  	.title {
   		color: black;
-			font-weight: 400;
+		font-weight: 400;
+		font-size: 32.5px;
 
   		@include screen-size(small) {
 			font-size: 1.4em;
   		}
   	}
 
-	h2 {
+	.byline {
 		margin-top: 0;
 		font-weight: 400;
 		font-size: 1em;
@@ -28,6 +37,17 @@
   		@include screen-size(small) {
 			display: none;
   		}
+	}
+
+	@include screen-size(small) {
+		top: 20px;
+		padding: 0 20px 0 60px;
+		// left: 24%;
+
+		img {
+			width: 30px;
+			top: 7px;
+		}
 	}
 
 

@@ -27,42 +27,40 @@
 	</head>
 	<body class="{{ page.class }}">
 		<header id="site-header">
-			<a id="logo" href="/"><img src="/media/logo-blue.svg" alt="Makombeh logo" /></a>
 			<img id="header-image" src="/media/group-2.png" alt="Group of people" />
-			<hgroup id="ankeiler">
-				<a href="/">
-					<h1>Stichting Makombeh</h1>
-					<h2>Onderwijsprojecten in Sierra Leone</h2>
-				</a>
-			</hgroup>
+			<a href="/" id="ankeiler">
+				<img src="/media/logo-blue.svg" alt="Makombeh logo" />
+				<strong class="title">Stichting Makombeh</strong>
+				<p class="byline">Onderwijsprojecten in Sierra Leone</p>
+			</a>
 		</header>
 		<div id="main">
-			<aside id="sidebar" class="sidebar">
+			<div class="container">
+				<aside id="sidebar" class="sidebar">
+					<ul class="navigation" id="global-navigation">
+						{% assign sorted_general = site.algemeen | sort: 'index' %}
+		            	{% for item in sorted_general %}
+							{% unless item.title == 'Home' %}
+								<li {% if page.url == item.url %}class="current"{% endif %}>
+							         <a href="{{ item.url }}#content" class="pat-inject" data-pat-inject="history: record">{{ item.title }}</a> 
+							    </li>
+							{% endunless %}
+					  {% endfor %}
+					</ul>
 
-			<ul class="navigation" id="global-navigation">
-				{% assign sorted_general = site.algemeen | sort: 'index' %}
-            	{% for item in sorted_general %}
-					{% unless item.title == 'Home' %}
-						<li {% if page.url == item.url %}class="current"{% endif %}>
-					         <a href="{{ item.url }}#content" class="pat-inject" data-pat-inject="history: record">{{ item.title }}</a> 
-					    </li>
+					<div class="fb-like" data-href="https://www.facebook.com/stichtingmakombeh" data-width="200" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				</aside>
+				<article id="content" class="pat-rich">
+					{{ content }}
+					{% unless page.url == '/' %}
+						<a hidden 
+						   href="#content" 
+						   class="pat-scroll" 
+						   data-pat-scroll="selector: #site-logo; trigger: auto">Naar boven</a>
 					{% endunless %}
-			  {% endfor %}
-			</ul>
-
-			<div class="fb-like" data-href="https://www.facebook.com/stichtingmakombeh" data-width="200" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-
-		</aside>
-		<article id="content" class="pat-rich">
-			{{ content }}
-			{% unless page.url == '/' %}
-				<a hidden 
-		   href="#content" 
-		   class="pat-scroll" 
-		   data-pat-scroll="selector: #site-logo; trigger: auto">Naar boven</a>
-			{% endunless %}
-		</article>
-		{% include site-footer.html %}
+				</article>
+			</div>
+			{% include site-footer.html %}
 		</div>
 		<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
