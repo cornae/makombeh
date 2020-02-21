@@ -4,7 +4,7 @@ title: Nieuws
 index: 3
 
 ---
-## Nieuws
+# Nieuws
 
 Op 10 november 2017 bracht het bestuur een bezoek aan de school om daar haar 10 jarig bestaan te vieren. In die 10 jaar is de school gegroeid van 20 naar 150 kinderen. Aanvankelijk werd er onderwijs gegeven aan kinderen in de leeftijd van 4-7 jaar, inmiddels zijn dat kinderen van 4 tot 12 jaar.
 

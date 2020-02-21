@@ -5,7 +5,7 @@ published: true
 index: 2
 ---
 
-## Waarom
+# Waarom
 
 Het doel van stichting Makombeh is het opzetten en onderhouden van een lagere school in het plaatsje Makombeh, in Sierra Leone. De aanleiding hiervoor was een bezoek in 2006 van Jan Derks aan Sierra Leone, waar zijn vrienden Eamonn Hanson en Harm Beskers destijds werkzaam waren voor een ontwikkelingsorganisatie. Eamonn had daarnaast een boerenbedrijf opgestart in Makombeh en Gbanti, twee arme dorpjes in het binnenland op ongeveer 4 uur rijden van de hoofdstad Freetown.
 

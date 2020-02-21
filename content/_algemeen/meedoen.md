@@ -5,7 +5,7 @@ published: true
 index: 4
 ---
 
-## Meedoen
+# Meedoen
 
 De school kan draaiende gehouden worden met een budget van ca €&nbsp;6.000 per jaar. Daarnaast willen we het komende jaar de oudere klaslokalen opknappen, leerkrachten bijscholen en de sanitaire voorzieningen aanpakken voor een verbeterde hygiëne. 
 
