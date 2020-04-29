@@ -13,48 +13,21 @@ collections:
 port: 4017
 sass:
   style: compressed
-prose:
-  rooturl: '_posts'
-  siteurl: 'http://www.stichtingmakombeh.nl/'
-  relativeLinks: 'http://www.stichtingmakombeh.nl/links.jsonp'
-  media: 'media/illustrations/'
-  ignore:
-    - index.html
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /media
-    - /lib
-    - /work
-    - /style
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "select"
-          label: "Template"
-          placeholder: "Kies een template"
-          options:
-            - name: "Hoofdpagina"
-              value: "generic"
-            - name: "Nieuwspagina"
-              value: "news-item"
-      - name: "title"
-        field:
-          element: "text"
-          placeholder: "Title"
-          label: "Document title"
-      - name: "summary"
-        field:
-          element: "text"
-          label: "Document summary"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - config.codekit
+  - config.rb
+  - node_modules
+  - patternslib/node_modules
+  - Makefile
+  - README.md
+  - bundle-config.js
+  - src/
+  - stamp-npm
+  - stamp-bundler
+  - package.json
+  - package-lock.json
+  - npmshrinkwrap.json
+  - webpack.config.js
+  - vendor
