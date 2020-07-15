@@ -38,3 +38,5 @@ fields:
     time_format: YYYY-MM-DD
     display_utc: false
   default: now
+pages:
+- content/_nieuws/breaking-news-water-well-donated-by-action-4-schools.md
