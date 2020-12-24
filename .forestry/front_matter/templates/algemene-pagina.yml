@@ -18,4 +18,5 @@ fields:
   description: Dit getal geeft de sorteervolgorde aan. Een lager getal betekent hoger
     in het menu.
 pages:
+- content/_algemeen/english-page.md
 - content/_algemeen/projecten.md
