@@ -5,6 +5,5 @@ title: Nieuwsbrief oktober 2020
 attachments:
 - name: Nieuwsbrief oktober 2020
   file: "/media/nieuwsbrief-makombeh-oktober-2020.pdf"
-published: false
 
 ---
