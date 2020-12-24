@@ -6,7 +6,7 @@ index: 3
 ---
 # Nieuws
 
-Op 14 februari 2020 heeft de school een sportdag gehouden. De school bestaat nu 13 jaar en is gegroeid van 150 naar 170 kinderen (4-12 jaar). Er zijn 6 klaslokalen en 6 leerkrachten, met een speciale klas voor kinderen die extra aandacht nodig hebben.
+Op Valentijnsdag, 14 februari 2020 heeft de school een sportdag gehouden. De school bestaat nu 13 jaar en is wederom verder gegroeid naar 200 kinderen (4-12 jaar). Er zijn 6 klaslokalen en dit jaar zijn er 2 extra leerkrachten aangetrokken waardoor de school momenteel 8 leerkrachten heeft. Daarnaast is er inmiddels een speciale klas voor kinderen die extra aandacht nodig hebben.
 
 De sportactiviteiten op Valentijnsdag werden gevierd met meerdere speeches, een sportdag voor de jeugd, en een grootst muziek en dansfeest voor de jongeren en ouders.
 
