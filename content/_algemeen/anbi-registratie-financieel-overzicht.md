@@ -2,7 +2,6 @@
 layout: shell
 title: ANBI registratie & financieel overzicht
 index: 9
-published: false
 
 ---
 Stichting Makombeh is door de belastingdienst erkend als een Algemeen Nut Beoogde Instelling (ANBI).
@@ -25,7 +24,7 @@ Website:		www.stichtingmakombeh.nl
 
 RSIN:		819028228
 
-Actief in sector:		International hulp en mensenrechten - onderwijs in ontwikkelingssamenwerking
+Actief in sector:		Internationale hulp en mensenrechten - onderwijs in ontwikkelingssamenwerking
 
 Land actief:	Sierra Leone
 
