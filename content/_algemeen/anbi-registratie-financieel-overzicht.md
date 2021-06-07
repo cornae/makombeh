@@ -2,7 +2,6 @@
 layout: shell
 title: ANBI registratie & financieel overzicht
 index: 9
-published: false
 
 ---
 Stichting Makombeh is door de belastingdienst erkend als een Algemeen Nut Beoogde Instelling (ANBI).
