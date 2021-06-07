@@ -14,7 +14,7 @@ Nummer KvK		30236518
 
 **Contact gegevens**
 
-Adres:		Betrand Russellstraat 118, 1097HM Amsterdam
+Adres:		Bertrand Russellstraat 118, 1097HM Amsterdam
 
 Telefoon:		31-(0)6-23956336
 
