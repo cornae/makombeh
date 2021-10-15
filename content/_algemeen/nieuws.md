@@ -14,4 +14,4 @@ Bekijk een [korte impressie van deze dag op YouTube](https://youtu.be/XgkPwN0FCs
 
 Bekijk [een impressie van de sportdag in 2017](https://www.youtube.com/watch?v=P_NKZNfW1_U).
 
-Blijf op de hoogte van de activiteiten van stichting Makombeh via deze nieuwspagina of meldt je aan via stichtingmakombeh@gmail.com voor de terugkerende nieuwsbrief.
+Blijf op de hoogte van de activiteiten van stichting Makombeh via deze nieuwspagina of meld je aan via stichtingmakombeh@gmail.com voor de terugkerende nieuwsbrief.
