@@ -7,4 +7,4 @@ Stichting Makombeh heeft sinds de oprichting in 2007, ruim twee honderd kinderen
 
 De hoofdtaak van stichting Makombeh is het financieren en adviseren van  de school, de leerkrachten en de leerlingen. De stichting streeft naar een sterke school met een hoge leskwaliteit, gegeven door gediplomeerde leerkrachten. Twee assistent leerkrachten volgen nu een opleiding tot gediplomeerd leerkracht. De school wordt mede gerund door de gemeenschap zelf, waarbij de moeders in de middag eten koken voor de kinderen.
 
-Door de inzet van de lokale gemeenschap en de belangeloze inzet van het bestuur, kent de stichting geen overhead en komen alle financiële middelen ten goede aan de school. In 2020 is de school het 13e schooljaar in gegaan.
+Door de inzet van de lokale gemeenschap en de belangeloze inzet van het bestuur, kent de stichting geen overhead en komen alle financiële middelen ten goede aan de school. In 2021 is de school het 14e schooljaar in gegaan.
