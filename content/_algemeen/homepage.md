@@ -1,7 +1,6 @@
 ---
 layout: shell
 title: Home
-published: false
 
 ---
 Stichting Makombeh heeft sinds de oprichting in 2008 circa 250 kinderen in Sierra Leone aan een betere toekomst geholpen door ze basisonderwijs te bieden en ze daarmee voor te bereiden voor de middelbare school. Momenteel genieten 200 jongens en meisjes (4-12 jaar) dagelijks onderwijs en beheert de stichting 6 klaslokalen (+ 1 kantoor), 4 toiletten, 2 waterputten, een speelveld en heeft het 8 leerkrachten in dienst. Daarnaast bekostigt de stichting lesmaterialen, uniforms en voorziet het leerkrachten van opleidingen en trainingen. 
